@@ -1,0 +1,150 @@
+/*============GERAL==============*/
+
+
+@font-face {
+    font-family: SpartanMB;
+    src: url(Fonts/SpartanMB-Bold.otf);
+}
+
+@font-face {
+    font-family: SpartanLight;
+    src: url(Fonts/SpartanMB-Medium.otf);
+}
+
+body {
+    background-image: url(img/hero-alisson.png);
+    background-size: 100%;
+    margin: 0;
+    font-family: SpartanMB;
+}
+
+
+
+
+/*==========CABEÇALHO============*/
+
+nav {
+    padding: 1%;
+    padding-bottom: 1%;
+}
+
+hr{
+    padding: 0.2em;
+    margin: 0;
+    position: relative;
+    bottom: 0.7em;
+    position: relative;
+    border: none;
+    background: linear-gradient(#a2a2ac3d, #e2e3f004) ;
+}
+
+ul {
+    margin: 0 4% 0 0;
+    display: inline;
+    float: right;
+}
+
+li {
+    margin-left: 2.5em;
+    display: inline;
+    list-style: none;
+}
+
+
+.logo {
+    margin: 0 0 0 2%;
+    display: inline;
+    position: relative;
+}
+
+
+.home{
+    color: #158f87;
+    text-decoration: none;
+    position: relative;
+}
+
+.home::after{
+    content: " " ;
+    width: 50%;
+    height: 2px;
+    background-color: #158f87;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.home:hover:after{
+    width: 100%;
+}
+
+.resto-dos-botões-nav{
+    color: #28282b;
+    text-decoration: none;
+    position: relative;
+}
+
+.resto-dos-botões-nav:hover{
+    color: #158f87;
+}
+
+.bolsa{
+    position: relative;
+    top: 3px;
+}
+
+
+/*============CORPO==============*/
+
+
+main {
+    margin-top: 13%;
+    margin-left: 5%;
+    position: relative;
+    padding: 1%;
+}
+
+
+.primeira-frase {
+    margin: 0 0 1% 0;
+}
+
+.frase-principal {
+    font-size: 3.5em ;
+    margin: 0;
+}
+
+.span-verde {
+    color: #137e76;
+}
+
+.ultima-frase {
+    font-family: 'SpartanLight';
+    font-size: smaller;
+    color: #818d91;
+    margin: 1% 0 0 0;
+}
+
+
+.div-botão{
+    position: relative;
+    display: inline;
+}
+
+.botão{
+    color: #158f87;
+    text-decoration: none;
+    display: inline;
+    position: absolute;
+    bottom: 100%;
+    left: 35%;
+}
+
+.botão:hover{
+    color: #137e76;
+}
+
+.sombra-botão{
+    margin: 3% 0 0 1%;
+}
