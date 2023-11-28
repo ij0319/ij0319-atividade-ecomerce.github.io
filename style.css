@@ -24,17 +24,6 @@ body {
 
 nav {
     padding: 1%;
-    padding-bottom: 1%;
-}
-
-hr{
-    padding: 0.2em;
-    margin: 0;
-    position: relative;
-    bottom: 0.7em;
-    position: relative;
-    border: none;
-    background: linear-gradient(#a2a2ac3d, #e2e3f004) ;
 }
 
 ul {
@@ -47,6 +36,16 @@ li {
     margin-left: 2.5em;
     display: inline;
     list-style: none;
+}
+
+hr{
+    padding: 0.2em;
+    margin: 0;
+    position: relative;
+    bottom: 0.7em;
+    position: relative;
+    border: none;
+    background: linear-gradient(#a2a2ac3d, #e2e3f004) ;
 }
 
 
